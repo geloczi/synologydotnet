@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SynologyDotNet.Core", "..\synologydotnet-core\SynologyDotNet.Core\SynologyDotNet.Core.csproj", "{1C478F5D-7773-487C-8679-B9C2B6153064}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SynologyDotNet.Core.Test", "..\synologydotnet-core\SynologyDotNet.Core.Test\SynologyDotNet.Core.Test.csproj", "{B518AA11-6644-4E3A-B41B-D309761BBC46}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SynologyDotNet.Core.IntegrationTest", "..\synologydotnet-core\SynologyDotNet.Core.IntegrationTest\SynologyDotNet.Core.IntegrationTest.csproj", "{7D70880C-55CF-43FB-86B5-A93999392178}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SynologyDotNet.AudioStation", "..\synologydotnet-audiostation\SynologyDotNet.AudioStation\SynologyDotNet.AudioStation.csproj", "{104B072D-0C26-4DF6-9F57-40C30E42C0B4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SynologyDotNet.AudioStation.IntegrationTest", "..\synologydotnet-audiostation\SynologyDotNet.AudioStation.IntegrationTest\SynologyDotNet.AudioStation.IntegrationTest.csproj", "{E252DC45-3861-4E1E-AE9F-E2EB63F96FCB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Local|Any CPU = Local|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C478F5D-7773-487C-8679-B9C2B6153064}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C478F5D-7773-487C-8679-B9C2B6153064}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C478F5D-7773-487C-8679-B9C2B6153064}.Local|Any CPU.ActiveCfg = Local|Any CPU
+		{1C478F5D-7773-487C-8679-B9C2B6153064}.Local|Any CPU.Build.0 = Local|Any CPU
+		{1C478F5D-7773-487C-8679-B9C2B6153064}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C478F5D-7773-487C-8679-B9C2B6153064}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B518AA11-6644-4E3A-B41B-D309761BBC46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B518AA11-6644-4E3A-B41B-D309761BBC46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B518AA11-6644-4E3A-B41B-D309761BBC46}.Local|Any CPU.ActiveCfg = Local|Any CPU
+		{B518AA11-6644-4E3A-B41B-D309761BBC46}.Local|Any CPU.Build.0 = Local|Any CPU
+		{B518AA11-6644-4E3A-B41B-D309761BBC46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B518AA11-6644-4E3A-B41B-D309761BBC46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D70880C-55CF-43FB-86B5-A93999392178}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D70880C-55CF-43FB-86B5-A93999392178}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D70880C-55CF-43FB-86B5-A93999392178}.Local|Any CPU.ActiveCfg = Local|Any CPU
+		{7D70880C-55CF-43FB-86B5-A93999392178}.Local|Any CPU.Build.0 = Local|Any CPU
+		{7D70880C-55CF-43FB-86B5-A93999392178}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D70880C-55CF-43FB-86B5-A93999392178}.Release|Any CPU.Build.0 = Release|Any CPU
+		{104B072D-0C26-4DF6-9F57-40C30E42C0B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{104B072D-0C26-4DF6-9F57-40C30E42C0B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{104B072D-0C26-4DF6-9F57-40C30E42C0B4}.Local|Any CPU.ActiveCfg = Local|Any CPU
+		{104B072D-0C26-4DF6-9F57-40C30E42C0B4}.Local|Any CPU.Build.0 = Local|Any CPU
+		{104B072D-0C26-4DF6-9F57-40C30E42C0B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{104B072D-0C26-4DF6-9F57-40C30E42C0B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E252DC45-3861-4E1E-AE9F-E2EB63F96FCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E252DC45-3861-4E1E-AE9F-E2EB63F96FCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E252DC45-3861-4E1E-AE9F-E2EB63F96FCB}.Local|Any CPU.ActiveCfg = Local|Any CPU
+		{E252DC45-3861-4E1E-AE9F-E2EB63F96FCB}.Local|Any CPU.Build.0 = Local|Any CPU
+		{E252DC45-3861-4E1E-AE9F-E2EB63F96FCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E252DC45-3861-4E1E-AE9F-E2EB63F96FCB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0DB74B8E-58EB-4654-ADA1-7DB2A7216ED7}
+	EndGlobalSection
+EndGlobal
