@@ -5,7 +5,19 @@ This repository used internally to develop my SynologyDotNet packages.
 
 ## Overview
 
-My **client** implementations are **referencing** the **synologydotnet-core** package, which provides a small framework to send requests to the Synology API, and also handles authentication.
+My **client** implementations are **referencing** the **synologydotnet-core** package, which provides a small framework to send requests to the Synology API, and also handles authentication.  
+
+```
+synologydotnet-core
+ │
+ ├── synologydotnet-filestation
+ │
+ ├── synologydotnet-audiostation
+ │   │
+ │   └── synologydotnet-audiostation-wpf
+ │
+ └── ...
+```
 
 ## The (NuGet) Package Reference vs Project Reference dilemma
 
@@ -54,4 +66,5 @@ So this little snippet **switches** the project **to project referenes if** I se
 Otherwise everything defaults to packages references.  
 The beautiful in this solution is that the **Local** entry exists only in this "master" solution file, so I do not disturb the build inside the individual repositories. They simply won't switch to **Local**, because their own solution file does not include the **Local** setting.  
 
+## How to use
 To debug everything locally, one can clone this repository along with all the others and just set the config to **Local** and hit **Build**.
