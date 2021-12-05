@@ -7,16 +7,17 @@ This repository used internally to develop my SynologyDotNet packages.
 
 My **client** implementations are **referencing** the **synologydotnet-core** package, which provides a small framework to send requests to the Synology API, and also handles authentication.  
 
+Logical hierarchy:  
 ```
 synologydotnet-core
- │
- ├── synologydotnet-filestation
- │
- ├── synologydotnet-audiostation
- │   │
- │   └── synologydotnet-audiostation-wpf
- │
- └── ...
+│
+├── synologydotnet-filestation
+│
+├── synologydotnet-audiostation
+│   │
+│   └── synologydotnet-audiostation-wpf
+│
+└── ...
 ```
 
 ## The (NuGet) Package Reference vs Project Reference dilemma
