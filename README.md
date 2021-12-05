@@ -40,7 +40,7 @@ This solution file has a **Local** configuration apart from **Debug** and **Rele
 
 I use a project file with both the **NuGet package reference** and the **project reference**.  
 The project file literally contains a **switch .. case** statement to setup the project by the selected configuration.  
-Here is a snippet from my *synologydotnet-audiostation* repository:  
+Here is a snippet from my [synologydotnet-audiostation](https://github.com/geloczigeri/synologydotnet-audiostation) repository:  
 ```
 <Project Sdk="Microsoft.NET.Sdk">
     
